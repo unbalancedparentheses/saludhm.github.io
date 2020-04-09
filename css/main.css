@@ -217,15 +217,15 @@ html.menu-opened {
 #contact #contact-list .text * {
   color: var(--main-dark-color); }
 #contact #contact-list .text {
-  font-size: 1.2rem; }
+  font-size: 1.6rem; }
 #contact #contact-list .image-container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2.7rem;
   border-radius: 1.5rem;
-  width: 10.5em;
-  height: 10.5rem; }
+  width: 15.5em;
+  height: 15.5rem; }
 
 footer {
   background: var(--secondary-color); }

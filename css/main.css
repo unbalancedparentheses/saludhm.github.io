@@ -1,6 +1,6 @@
 :root {
   --main-color: #CFF09E;
-  --main-dark-color: #79BD9A;
+  --main-dark-color: #3B8686;
   --header-height: 5rem;
   --desktop-header-height: 7rem;
   --secondary-color: #0B486B;
@@ -258,7 +258,7 @@ footer {
       background-position: 100% 0; } }
   .btn.white {
     background: #fff;
-    color: var(--main-color); }
+    color: var(--main-dark-color); }
     @media (hover: hover) {
       .btn.white:hover {
         background: var(--main-dark-color);

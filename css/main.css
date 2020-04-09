@@ -1,9 +1,9 @@
 :root {
-  --main-color: #CFF09E;
-  --main-dark-color: #3B8686;
+  --main-color: #A6F5D4;
+  --main-dark-color: #48886F;
   --header-height: 5rem;
   --desktop-header-height: 7rem;
-  --secondary-color: #0B486B;
+  --secondary-color: #ADDED1;
   --header-color: #3B8686; }
 
 @font-face {
@@ -134,7 +134,8 @@ html.menu-opened {
 #landing {
   min-height: calc(var(--vh, 1vh) * 107);
   padding-top: calc(var(--header-height) + 10vh);
-  background-image: url("../img/1-01.jpg");
+  /* background-image: url("../img/1-01.jpg"); */
+  background-image: url("../img/hm-blob-left.png");
   background-size: 160%;
   background-repeat: no-repeat; }
   @media (min-width: 1024px) {
@@ -232,7 +233,7 @@ footer {
     footer #footer-logo {
       width: 14rem; } }
   footer * {
-    color: #fff; }
+    color: #4e4e4e; }
 
 /* Components */
 .btn {

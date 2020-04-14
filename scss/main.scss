@@ -506,3 +506,13 @@ section {
 .color-main-dark{
   color: var(--main-dark-color);
 }
+
+#product-icons > div > div{
+  grid-template-rows: minmax(0, .8fr) minmax(0, 1.1fr);
+  img{
+    @include transition;
+  }
+  &:hover > img{
+    transform: translateY(-.5rem);
+  }
+}

@@ -401,4 +401,15 @@ section {
 .color-main-dark {
   color: var(--main-dark-color); }
 
+#product-icons > div > div {
+  grid-template-rows: minmax(0, 0.8fr) minmax(0, 1.1fr); }
+  #product-icons > div > div img {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  #product-icons > div > div:hover > img {
+    transform: translateY(-0.5rem); }
+
 /*# sourceMappingURL=main.css.map */

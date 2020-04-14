@@ -142,7 +142,7 @@ html.menu-opened {
   @media (min-width: 1024px) {
     #landing {
       background-size: 60%;
-      padding-top: calc(var(--desktop-header-height) + 16vh); } }
+      padding-top: calc(var(--desktop-header-height) + 12vh); } }
   #landing .container {
     grid-template-columns: 30rem minmax(0, 1fr);
     gap: 5rem;

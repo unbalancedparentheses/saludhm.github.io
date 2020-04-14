@@ -150,8 +150,7 @@ html.menu-opened {
   #landing img {
     border-radius: 3.5rem; }
   #landing .sym {
-    -webkit-filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2));
-    filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2)); }
+    animation: float 6s ease-in-out infinite; }
 
 .tracking-mega {
   letter-spacing: 0.18rem; }
@@ -411,5 +410,19 @@ section {
     transition: all 0.3s ease; }
   #product-icons > div > div:hover > img {
     transform: translateY(-0.5rem); }
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+    -webkit-filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2)); }
+  50% {
+    transform: translatey(-20px);
+    -webkit-filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 28px 14px rgba(0, 0, 0, 0.15)); }
+  100% {
+    transform: translatey(0px);
+    -webkit-filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.2)); } }
 
 /*# sourceMappingURL=main.css.map */

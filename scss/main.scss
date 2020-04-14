@@ -132,12 +132,12 @@ html.menu-opened {
   min-height: calc(var(--vh, 1vh) * 101);
   padding-top: calc(var(--header-height) + 10vh);
   background-image: url("../img/bg.svg");
-  background-size: 160%;
+  background-size: 80%;
   background-repeat: no-repeat;
+  background-position: right bottom;
 
   @media (min-width: 1024px) {
     background-size: 60%;
-    background-position: right bottom;
     padding-top: calc(var(--desktop-header-height) + 16vh);
   }
 

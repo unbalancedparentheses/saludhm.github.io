@@ -15,8 +15,8 @@
 
 @mixin gradient-background() {
   background: var(--main-color);
-  background: -moz-linear-gradient(90deg, rgba(0, 170, 235, 1) 0%, rgba(43, 57, 140, 1) 36%, rgba(43, 57, 140, 1) 61%, rgba(0, 170, 235, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(0, 170, 235, 1) 0%, rgba(43, 57, 140, 1) 36%, rgba(43, 57, 140, 1) 61%, rgba(0, 170, 235, 1) 100%);
-  background: linear-gradient(90deg, rgba(0, 170, 235, 1) 0%, rgba(43, 57, 140, 1) 36%, rgba(43, 57, 140, 1) 61%, rgba(0, 170, 235, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00aaeb", endColorstr="#00aaeb", GradientType=1);
+  background: -moz-linear-gradient(90deg, var(--main-color) 0%, var(--main-dark-color) 36%, var(--main-dark-color) 61%, var(--main-color) 100%);
+  background: -webkit-linear-gradient(90deg, var(--main-color) 0%, var(--main-dark-color) 36%, var(--main-dark-color) 61%, var(--main-color) 100%);
+  background: linear-gradient(90deg, var(--main-color) 0%, var(--main-dark-color) 36%, var(--main-dark-color) 61%, var(--main-color) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14ce69", endColorstr="#229d5a", GradientType=1);
 }

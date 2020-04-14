@@ -13,6 +13,12 @@ body * {
   color: #222;
 }
 
+a:not(.btn){
+  &:hover{
+    color: var(--main-color);
+  }
+}
+
 body>header {
   top: 0;
   z-index: 10;
@@ -50,6 +56,9 @@ body>header {
     .container{
       padding: 1rem 1rem .6rem;
     }
+    #logo{
+      width: 8rem;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -59,7 +68,7 @@ body>header {
       .container {
         padding: 1rem 0;
         height: 100%;
-        align-items: flex-end;
+        align-items: center;
       }
 
       nav {
@@ -120,15 +129,15 @@ html.menu-opened {
 }
 
 #landing {
-  min-height: calc(var(--vh, 1vh) * 107);
+  min-height: calc(var(--vh, 1vh) * 101);
   padding-top: calc(var(--header-height) + 10vh);
-  //background-image: url("../img/hm-blob-left.png");
+  background-image: url("../img/bg.svg");
   background-size: 160%;
   background-repeat: no-repeat;
 
   @media (min-width: 1024px) {
-    background-size: contain;
-    background-position: left top;
+    background-size: 60%;
+    background-position: right bottom;
     padding-top: calc(var(--desktop-header-height) + 16vh);
   }
 
@@ -140,6 +149,11 @@ html.menu-opened {
 
   img {
     border-radius: 3.5rem;
+  }
+
+  .sym{
+    -webkit-filter: drop-shadow( 0px 8px 5px rgba(0, 0, 0, .2));
+    filter: drop-shadow( 0px 8px 5px rgba(0, 0, 0, .2));
   }
 }
 
@@ -272,7 +286,8 @@ footer {
 
   #footer-logo {
     @media (min-width: 1024px) {
-      width: 14rem;
+      width: 12rem;
+      margin-top: -1rem;
     }
   }
 
@@ -486,4 +501,8 @@ section {
 
 .leading-open{
   line-height: 1.75;
+}
+
+.color-main-dark{
+  color: var(--main-dark-color);
 }

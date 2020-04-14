@@ -100,8 +100,8 @@ body > header {
   body > header nav {
     z-index: 11; }
     body > header nav #close-menu {
-      top: 1.3rem;
-      right: 1.1rem;
+      top: 1.7rem;
+      right: 1.2rem;
       width: 2.7rem; }
   body > header #logo-link {
     -moz-transition: all 0.8s ease;
@@ -118,15 +118,16 @@ html.menu-opened {
     background: var(--main-color);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6rem 2rem;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     html.menu-opened header nav > a {
-      margin: 1.5rem 0;
+      margin: .5rem 0;
       font-size: 1.5rem;
       color: #fff; }
       html.menu-opened header nav > a:not(.btn) {
@@ -222,7 +223,7 @@ html.menu-opened {
 #contact #contact-list .text * {
   color: var(--main-dark-color); }
 #contact #contact-list .text {
-  font-size: 1.6rem; }
+  font-size: 1.2rem; }
 #contact #contact-list .image-container {
   display: flex;
   align-items: center;
@@ -397,6 +398,9 @@ section {
 .leading-open {
   line-height: 1.75; }
 
+.color-main {
+  color: var(--main-color); }
+
 .color-main-dark {
   color: var(--main-dark-color); }
 
@@ -410,6 +414,9 @@ section {
     transition: all 0.3s ease; }
   #product-icons > div > div:hover > img {
     transform: translateY(-0.5rem); }
+
+.border-shm {
+  border-color: #19b25f; }
 
 @keyframes float {
   0% {

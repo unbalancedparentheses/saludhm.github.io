@@ -88,8 +88,8 @@ body>header {
     z-index: 11;
 
     #close-menu {
-      top: 1.3rem;
-      right: 1.1rem;
+      top: 1.7rem;
+      right: 1.2rem;
       width: 2.7rem;
     }
   }
@@ -108,12 +108,13 @@ html.menu-opened {
     background: var(--main-color);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6rem 2rem;
     @include transition;
 
     &>a {
-      margin: 1.5rem 0;
+      margin: .5rem 0;
       font-size: 1.5rem;
       color: #fff;
 
@@ -265,7 +266,7 @@ html.menu-opened {
     }
 
     .text {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
 
     .image-container {
@@ -502,6 +503,10 @@ section {
   line-height: 1.75;
 }
 
+.color-main{
+  color: var(--main-color);
+}
+
 .color-main-dark{
   color: var(--main-dark-color);
 }
@@ -514,6 +519,10 @@ section {
   &:hover > img{
     transform: translateY(-.5rem);
   }
+}
+
+.border-shm{
+  border-color: #19b25f;
 }
 
 @keyframes float {

@@ -151,7 +151,7 @@ html.menu-opened {
   #landing img {
     border-radius: 3.5rem; }
   #landing .sym {
-    animation: float 6s ease-in-out infinite; }
+    animation: float 4s ease-in-out infinite; }
 
 .tracking-mega {
   letter-spacing: 0.18rem; }

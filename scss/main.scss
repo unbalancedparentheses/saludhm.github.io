@@ -201,8 +201,11 @@ html.menu-opened {
   }
 }
 
-#products img {
-  max-width: 39rem;
+@media (min-width: 1024px) {
+  #products img {
+    max-width: 17rem;
+    height: auto;
+  }
 }
 
 #hero-2 {
@@ -495,7 +498,7 @@ section {
   position: relative;
 
   @media (min-width: 1024px) {
-    height: 35rem;
+    height: 30rem;
   }
 }
 

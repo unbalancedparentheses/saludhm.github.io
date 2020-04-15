@@ -181,9 +181,10 @@ html.menu-opened {
 #hero .title {
   max-width: 60rem; }
 
-#products img {
-  max-width: 39rem; }
-
+@media (min-width: 1024px) {
+  #products img {
+    max-width: 17rem;
+    height: auto; } }
 #hero-2 {
   background-image: url("../img/hero.png");
   background-position: right top;
@@ -393,7 +394,7 @@ section {
   position: relative; }
   @media (min-width: 1024px) {
     .h-product {
-      height: 35rem; } }
+      height: 30rem; } }
 
 .leading-open {
   line-height: 1.75; }
